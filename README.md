@@ -24,23 +24,23 @@ In this challenge, create a web API around the following resources: `Projects` a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
 \*Routing is one of the main features of Express. Using routing in Express we can map incoming request to the appropriate request handler based on the URL and the HTTP Method used. We also learned about Express Middleware, which allows you to customize Express and expand on the functionality of Express.
 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 
 \*Middleware expands on the functionality of Express and it allows us to customize Express.
 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 
 \*The things being stored in our databases and managed. Examples: Users, Products, Orders, Clients, Returns. The things that we are CRUDing (Create, Read, Update, Destroy).
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] What can the API return to help clients know if a request was successful?
 
 \*An API can return a 200OK if a request was successful.
 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 
 \*We can use Express Router to split applications into sub-applications to make them more modular, easier to maintain and reason about.
 
@@ -78,8 +78,8 @@ The `projectModel.js` helper includes an extra method called `getProjectActions(
 
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
