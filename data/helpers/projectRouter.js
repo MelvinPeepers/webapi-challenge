@@ -36,7 +36,7 @@ router.get("/:id", validateProjectId, async (req, res) => {
 });
 // TESTED IN POSTMAN
 
-// POST
+// POST http://localhost:5000/api/projects/ "name": & "description":
 router.post("/", async (req, res) => {
   try {
     const projects = await Projects.insert(req.body);
