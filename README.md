@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+\*Routing is one of the main features of Express. Using routing in Express we can map incoming request to the appropriate request handler based on the URL and the HTTP Method used. We also learned about Express Middleware, which allows you to customize Express and expand on the functionality of Express.
+
 - [ ] Describe Middleware?
+
+\*Middleware expands on the functionality of Express and it allows us to customize Express.
 
 - [ ] Describe a Resource?
 
+\*The things being stored in our databases and managed. Examples: Users, Products, Orders, Clients, Returns. The things that we are CRUDing (Create, Read, Update, Destroy).
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+\*An API can return a 200OK if a request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+\*We can use Express Router to split applications into sub-applications to make them more modular, easier to maintain and reason about.
 
 ## Project Setup
 
@@ -42,12 +52,12 @@ Follow these steps to set up and work on your project:
 - [x] Add your _Project Manager_ as collaborator on Github.
 - [x] Clone your forked version of the Repository.
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master on your fork. **Please don't merge your own pull request.**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master on your fork. **Please don't merge your own pull request.**
 - [ ] Add your _Project Manager_ as a Reviewer on the Pull-request
 - [ ] Your _Project Manager_ will count the challenge as done by merging the branch into _master_.
 
